@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import TitleCircle from './TitleCircle.vue'
 </script>
 
 <template>
-    <div class="parent">
+    <div class-name="parent">
         <img src="../assets/custom-images/planet4.svg" alt="planet 4" id="planet4">
+        <img src="../assets/custom-images/planet5.svg" alt="planet 5" id="planet5">
+        <img src="../assets/custom-images/planet7.svg" alt="planet 7" id="planet7">
         <img src="../assets/custom-images/planet8.svg" alt="planet 8" id="planet8">
         <img src="../assets/custom-images/planet9.svg" alt="planet 9" id="planet9">
         <img src="../assets/custom-images/planet10.svg" alt="planet 10" id="planet10">
+        <img src="../assets/custom-images/planet11.svg" alt="planet 11" id="planet11">
     </div>
         
 </template>
 
 <style scoped>
-.parent {
-    position: relative;
-}
+
 #planet4 {
     position: absolute;
 width: 199px;
@@ -23,6 +23,21 @@ height: 187px;
 left: 1140px;
 top: 525px;
 
+}
+#planet5 {
+    position: absolute;
+width: 683px;
+height: 502px;
+left: 51px;
+top: 3630px;
+}
+
+#planet7 {
+    position: absolute;
+width: 249px;
+height: 233px;
+left: 300px;
+top: 3014px;
 }
 #planet8 {
     position: absolute;
@@ -48,6 +63,16 @@ height: 399px;
 left: 84px;
 top: 1543px;
 }
-S
+
+#planet11{
+    position: absolute;
+width: 296px;
+height: 296px;
+left: 1088px;
+top: 4182px;
+}
+
+
+
 
 </style>
