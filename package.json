@@ -3,12 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://hack-washu.github.io/website2023/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
