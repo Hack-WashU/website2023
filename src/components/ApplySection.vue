@@ -3,15 +3,32 @@
 
 <template>
     <div class-name="parent">
-        <img src="../assets/Astronaut.svg" alt="Bear Astronaut" />
+        <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" />
         <a href="https://example.com" class="svg-link">
-            <img src="../assets/custom-images/planet9.svg" alt="Link Image">
+            <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet">
             Link Text
         </a>
     </div>
 </template>
 
 <style scoped>
+
+#apply-astronaut {
+    position: absolute;
+    width: 5; /*TODO: determine viewport width */
+    height: 5; /*TODO: determine viewport height */
+    left: 0;
+    top: 0;
+}
+
+#apply-main-red-ring-planet {
+    position: absolute;
+    width: 5; /*TODO: determine viewport width */
+    height: 5; /*TODO: determine viewport height */
+    left: 0;
+    top: 0;
+}
+
 .parent {
     position: relative;
     width: 100vw; /* take full viewport width */
