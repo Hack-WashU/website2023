@@ -2,9 +2,10 @@
 </script>
 
 <template>
-    <div class="parent">
+    <div class-name="parent">
         <img src="../assets/custom-images/planet4.svg" alt="planet 4" id="planet4">
         <img src="../assets/custom-images/planet5.svg" alt="planet 5" id="planet5">
+        <img src="../assets/custom-images/planet7.svg" alt="planet 7" id="planet7">
         <img src="../assets/custom-images/planet8.svg" alt="planet 8" id="planet8">
         <img src="../assets/custom-images/planet9.svg" alt="planet 9" id="planet9">
         <img src="../assets/custom-images/planet10.svg" alt="planet 10" id="planet10">
@@ -29,6 +30,14 @@ width: 683px;
 height: 502px;
 left: 51px;
 top: 3630px;
+}
+
+#planet7 {
+    position: absolute;
+width: 249px;
+height: 233px;
+left: 300px;
+top: 3014px;
 }
 #planet8 {
     position: absolute;
