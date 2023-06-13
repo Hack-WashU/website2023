@@ -3,152 +3,51 @@ import TitleCircle from './TitleCircle.vue'
 </script>
 
 <template>
-    <div class="grid-container">
-        <!-- Repeat this grid-item as many times as you want rows -->
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3">
-            <img id="planet3" src="../assets/custom-images/planet3.svg" alt="Small blue planet"/>
-
-        </div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-        <!-- ROW 2-->
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-            <img id="planet8" src="../assets/custom-images/planet8.svg" alt="Orange planet"/>
-
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-                <!-- ROW 3-->
-
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6">
-
-        </div>
-
-        <div class="grid-item7">
-            <img id="planet2" src="../assets/custom-images/planet2.svg" alt="Pink and orange planet"/>
-
-        </div>
-                <!-- ROW 4-->
-
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-                <!-- ROW 5-->
-
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-                <!-- ROW 6-->
-
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-        <!--ROW 7-->
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-        <!--ROW 8-->
-        <div class="grid-item1">
-        </div>
-        <div class="grid-item2">
-        </div>
-        <div class="grid-item3"></div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5">
-
-        </div>
-        <div class="grid-item6"></div>
-        <div class="grid-item7"></div>
-        <!--ROW 9-->
-        <div class="grid-item2"></div>
-        <div class="grid-item1"></div>
-        <div class="grid-item2"></div>
-        <!-- ... -->
+    <div class="parent">
+        <img src="../assets/custom-images/planet4.svg" alt="planet 4" id="planet4">
+        <img src="../assets/custom-images/planet8.svg" alt="planet 8" id="planet8">
+        <img src="../assets/custom-images/planet9.svg" alt="planet 9" id="planet9">
+        <img src="../assets/custom-images/planet10.svg" alt="planet 10" id="planet10">
     </div>
-<div class="header-section">  
-
-    <TitleCircle/>
-</div>
+        
 </template>
 
 <style scoped>
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: auto;
-    width: 100%;
+.parent {
+    position: relative;
 }
-.grid-item {
-border: 1px solid #ddd;
-padding: 10px;
-text-align: center;
+#planet4 {
+    position: absolute;
+width: 199px;
+height: 187px;
+left: 1140px;
+top: 525px;
+
 }
-.grid-item img {
-width: 100%;
-height: auto;
+#planet8 {
+    position: absolute;
+width: 247px;
+height: 237px;
+left: 84px;
+top: 291px;
+
 }
 
+#planet9 {
+    position: absolute;
+width: 600.17px;
+height: 500.15px;
+left: 641px;
+top: 1268.67px;
 
-
-
-
-
+}
+#planet10 {
+    position: absolute;
+width: 434px;
+height: 399px;
+left: 84px;
+top: 1543px;
+}
+S
 
 </style>
