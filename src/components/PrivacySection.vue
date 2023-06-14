@@ -10,8 +10,8 @@
 
 #privacy-bottom-right-purple-planet {
     position: absolute;
-    right: 5vw;
-    top: 40vw;
+    right: 9vw;
+    top: 34vw;
     width: 18vw;
     height: 16vw;
 }
