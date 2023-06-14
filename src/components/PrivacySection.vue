@@ -27,7 +27,7 @@
 #privacy-astronaut {
     position: absolute;
     right: -22vw;
-    top: 4vw;
+    top: 8vw;
     width: 40vw;
     height: 33vw;
 }
