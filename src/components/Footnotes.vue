@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
     <div class="footnotes">
       <div class="footnote-link" v-for="(link, index) in links" :key="index">
