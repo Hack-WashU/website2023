@@ -4,6 +4,7 @@ import About from './components/AboutSection.vue'
 import Apply from './components/ApplySection.vue'
 import Contact from './components/ContactSection.vue'
 import Privacy from './components/PrivacySection.vue'
+import Footnotes from './components/Footnotes.vue'
 
 </script>
 
@@ -13,6 +14,7 @@ import Privacy from './components/PrivacySection.vue'
   <About />
   <Contact />
   <Privacy />
+  <Footnotes />
 </template>
 
 <style scoped>
