@@ -1,5 +1,5 @@
 <template>
-    <div class-name="parent">
+    <div class-name="contact-parent">
         <img src="../assets/custom-images/contact-left-big-pink-planet.svg" alt="left big pink planet" id="contact-left-big-pink-planet">
         <img src="../assets/custom-images/contact-main-orange-bear-planet.svg" alt="main orange bear planet" id="contact-main-orange-bear-planet">
     </div>
@@ -23,7 +23,7 @@
     top: 0;
 }
 
-.parent {
+.contact-parent {
     flex: auto;
     position: relative;
     height: 100vh; /* take full viewport height */

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class-name="parent">
+    <div class-name="header-parent">
         <img src="../assets/custom-images/header-bottom-right-planet.svg" alt="bottom right planet" id="header-bottom-right-planet">
         <img src="../assets/custom-images/header-left-orange-medium-planet.svg" alt="left orange medium planet" id="header-left-orange-medium-planet">
         <img src="../assets/custom-images/header-main-planet.svg" alt="main planet" id="header-main-planet">
@@ -49,7 +49,7 @@
     top: 0;
 }
 
-.parent {
+.header-parent {
     flex: auto;
     position: relative;
     height: 100vh; /* take full viewport height */
