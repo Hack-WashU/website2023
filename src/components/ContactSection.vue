@@ -16,7 +16,10 @@
 }
 
 #contact-parent {
+    flex: auto;
     position: relative;
+    height: 100vh; 
+    width: 80vw;
 }
 
 </style>
