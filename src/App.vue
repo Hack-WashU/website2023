@@ -8,16 +8,18 @@ import Privacy from './components/PrivacySection.vue'
 </script>
 
 <template>
-<Header />
-<Apply />
-<About />
-<Contact />
-<Privacy />
+  <Header />
+  <Apply />
+  <About />
+  <Contact />
+  <Privacy />
 </template>
 
 <style scoped>
 
-Header {
-  viewport-fit: cover;
+#App {
+  display: flex;
+  flex-direction: column;
 }
+
 </style>

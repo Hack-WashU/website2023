@@ -1,5 +1,5 @@
 <template>
-    <div class-name="contact-parent">
+    <div id="contact-parent">
         <img src="../assets/custom-images/contact-left-big-pink-planet.svg" alt="left big pink planet" id="contact-left-big-pink-planet">
         <img src="../assets/custom-images/contact-main-orange-bear-planet.svg" alt="main orange bear planet" id="contact-main-orange-bear-planet">
     </div>
@@ -8,25 +8,15 @@
 <style scoped>
 
 #contact-left-big-pink-planet {
-    position: absolute;
-    width: 5; /*TODO: determine viewport width */
-    height: 5; /*TODO: determine viewport height */
-    left: 0;
-    top: 0;
+    position: relative;
 }
 
 #contact-main-orange-bear-planet {
-    position: absolute;
-    width: 5; /*TODO: determine viewport width */
-    height: 5; /*TODO: determine viewport height */
-    left: 0;
-    top: 0;
+    position: relative;
 }
 
-.contact-parent {
-    flex: auto;
+#contact-parent {
     position: relative;
-    height: 100vh; /* take full viewport height */
 }
 
 </style>
