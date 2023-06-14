@@ -24,10 +24,9 @@
 }
 
 .parent {
+    flex: auto;
     position: relative;
-    width: 100vw; /* take full viewport width */
     height: 100vh; /* take full viewport height */
-    overflow: hidden; /* hide overflowing content */
 }
 
 </style>
