@@ -22,8 +22,7 @@ body {
   min-height: 100vh;
 
   /* Moved background color from :root to body */
-  background-image: linear-gradient(to bottom, #4E4376, #2B5876);
-  background-size: cover; /* Cover the entire body */
+  background: linear-gradient(to bottom, #4E4376, #2B5876);
   background-attachment: fixed; /* Fixed background while scrolling */
 }
 

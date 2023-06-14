@@ -19,7 +19,7 @@
     flex: auto;
     position: relative;
     height: 100vh; /* take full viewport height */
-    width: 100vw;
+    width: 80vw;
 }
 
 </style>
