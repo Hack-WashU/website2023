@@ -1,5 +1,5 @@
 <template>
-    <div class-name="parent">
+    <div class-name="about-parent">
         <img src="../assets/custom-images/about-main-two-planets.svg" alt="main two planets" id="about-main-two-planets">
         <img src="../assets/custom-images/about-right-wavy-planet.svg" alt="right wavy planet" id="about-right-wavy-planet">
     </div>
@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.parent {
+.about-parent {
     flex: auto;
     position: relative;
     height: 100vh; /* take full viewport height */

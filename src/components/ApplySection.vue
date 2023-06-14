@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class-name="parent">
+    <div class-name="apply-parent">
         <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" />
         <a href="https://example.com" class="svg-link">
             <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet">
@@ -29,7 +29,7 @@
     top: 0;
 }
 
-.parent {
+.apply-parent {
     position: relative;
     height: 100vh; /* take full viewport height */
 }
