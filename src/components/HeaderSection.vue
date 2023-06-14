@@ -31,10 +31,10 @@
 
 #header-main-planet {
     position: absolute;
-    width: 5; /*TODO: determine viewport width */
-    height: 5; /*TODO: determine viewport height */
-    left: 0;
-    top: 0;
+    width: 50vw;
+    height: 50vw;
+    left: 25vw;
+    top: 11vh;
 }
 
 #header-small-left-purple-planet {
@@ -50,9 +50,9 @@
 }
 
 .parent {
+    flex: auto;
     position: relative;
-    width: 5; /*TODO: determine viewport width */
-    height: 5; /*TODO: determine viewport height */
+    height: 100vh; /* take full viewport height */
 }
 
 </style>
