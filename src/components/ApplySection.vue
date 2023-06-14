@@ -4,8 +4,11 @@
 <template>
     <div id="apply-parent">
         <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" id="apply-astronaut"/>
-        <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
-        <img src="../assets/custom-images/heart-box.svg" alt="heart box" id="heart-box"/>
+        <a href="https://wustl.az1.qualtrics.com/jfe/form/SV_9LAuwqqyOyFqwEm">
+            <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
+            <img src="../assets/custom-images/apply-apply.svg" alt="apply" id="apply-apply"/>
+        </a>
+        <img src="../assets/custom-images/apply-heart-box.svg" alt="heart box" id="apply-heart-box"/>
     </div>
 </template>
 
@@ -27,12 +30,20 @@
     height: 62vw;
 }
 
-#heart-box {
+#apply-heart-box {
     position: absolute;
     right: 43vw;
     top: 5vw;
     width: 15vw;
     height: 15vw;
+}
+
+#apply-apply{
+    position: absolute;
+    right: -6vw;
+    top: 16vw;
+    width: 25vw;
+    height: 25vw;
 }
 
 #apply-parent {

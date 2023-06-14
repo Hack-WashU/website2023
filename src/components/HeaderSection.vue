@@ -8,6 +8,7 @@
         <img src="../assets/custom-images/header-main-planet.svg" alt="main planet" id="header-main-planet">
         <img src="../assets/custom-images/header-small-left-purple-planet.svg" alt="small left purple planet" id="header-small-left-purple-planet">
         <img src="../assets/custom-images/header-top-right-small-orange-planet.svg" alt="top right small orange planet" id="header-top-right-small-orange-planet">
+        <img src="../assets/custom-images/header-hack-washu.svg" alt="Hack WashU" id="header-hack-washu">
     </div>  
 </template>
 
@@ -19,6 +20,14 @@
     height: 13vw; /*TODO: determine viewport height */
     right: 8vw;
     top: 37vw;
+}
+
+#header-hack-washu{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    left: 49vw;
+    top: 43vh; 
 }
 
 #header-left-orange-medium-planet {
