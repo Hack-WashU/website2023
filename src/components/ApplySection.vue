@@ -3,19 +3,36 @@
 
 <template>
     <div id="apply-parent">
-        <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" />
-        <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet">
+        <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" id="apply-astronaut"/>
+        <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
+        <img src="../assets/custom-images/heart-box.svg" alt="heart box" id="heart-box"/>
     </div>
 </template>
 
 <style scoped>
 
 #apply-astronaut {
-    position: relative;
+    position: absolute;
+    right: 46vw;
+    top: 8vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 #apply-main-red-ring-planet {
-    position: relative;
+    position: absolute;
+    right: -27vw;
+    top: 4vw;
+    width: 67vw;
+    height: 62vw;
+}
+
+#heart-box {
+    position: absolute;
+    right: 43vw;
+    top: 5vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 #apply-parent {
