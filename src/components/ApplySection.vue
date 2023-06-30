@@ -3,12 +3,10 @@
 
 <template>
     <div id="apply-parent">
-        <img src="../assets/custom-images/apply-astronaut.svg" alt="Bear Astronaut" id="apply-astronaut"/>
+        <img src="../assets/custom-images/apply-astronaut.png" alt="Bear Astronaut" id="apply-astronaut"/>
         <a href="https://wustl.az1.qualtrics.com/jfe/form/SV_9LAuwqqyOyFqwEm">
-            <img src="../assets/custom-images/apply-main-red-ring-planet.svg" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
-            <img src="../assets/custom-images/apply-apply.svg" alt="apply" id="apply-apply"/>
+            <img src="../assets/custom-images/apply-main.png" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
         </a>
-        <img src="../assets/custom-images/apply-heart-box.svg" alt="heart box" id="apply-heart-box"/>
     </div>
 </template>
 
@@ -16,34 +14,18 @@
 
 #apply-astronaut {
     position: absolute;
-    right: 46vw;
-    top: 8vw;
-    width: 40vw;
+    right: 42vw;
+    top: 0vw;
+    width: 47vw;
     height: 40vw;
 }
 
 #apply-main-red-ring-planet {
     position: absolute;
-    right: -27vw;
-    top: 4vw;
+    right: -20vw;
+    top:0vw;
     width: 67vw;
     height: 62vw;
-}
-
-#apply-heart-box {
-    position: absolute;
-    right: 43vw;
-    top: 5vw;
-    width: 15vw;
-    height: 15vw;
-}
-
-#apply-apply{
-    position: absolute;
-    right: -6vw;
-    top: 16vw;
-    width: 25vw;
-    height: 25vw;
 }
 
 #apply-parent {
