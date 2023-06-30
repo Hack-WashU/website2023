@@ -1,8 +1,8 @@
 <template>
     <div id="privacy-parent">
-        <img src="../assets/custom-images/privacy-bottom-right-purple-planet.svg" alt="bottom right purple planet" id="privacy-bottom-right-purple-planet">
-        <img src="../assets/custom-images/privacy-large-green-planet.svg" alt="large green planet" id="privacy-large-green-planet">
-        <img src="../assets/custom-images/privacy-astronaut.svg" alt="astronaut" id="privacy-astronaut">
+        <img src="../assets/custom-images/privacy-bottom-right.png" alt="bottom right purple planet" id="privacy-bottom-right-purple-planet">
+        <img src="../assets/custom-images/privacy-mid-left.png" alt="large green planet" id="privacy-large-green-planet">
+        <img src="../assets/custom-images/privacy-astronaut.png" alt="astronaut" id="privacy-astronaut">
     </div>
 </template>
 
@@ -10,24 +10,24 @@
 
 #privacy-bottom-right-purple-planet {
     position: absolute;
-    right: 9vw;
-    top: 34vw;
+    right: 17vw;
+    top: 40vw;
     width: 18vw;
     height: 16vw;
 }
 
 #privacy-large-green-planet {
     position: absolute;
-    right: 40vw;
-    top: -5vw;
-    width: 36vw;
-    height: 26vw;
+    right: 37vw;
+    top: 12vw;
+    width: 40vw;
+    height: 32vw;
 }
 
 #privacy-astronaut {
     position: absolute;
-    right: -22vw;
-    top: 8vw;
+    right: -20vw;
+    top: 10vw;
     width: 40vw;
     height: 33vw;
 }

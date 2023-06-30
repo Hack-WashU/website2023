@@ -1,7 +1,7 @@
 <template>
     <div id="about-parent">
-        <img src="../assets/custom-images/about-main-two-planets.svg" alt="main two planets" id="about-main-two-planets">
-        <img src="../assets/custom-images/about-right-wavy-planet.svg" alt="right wavy planet" id="about-right-wavy-planet">
+        <img src="../assets/custom-images/about-main.png" alt="main two planets" id="about-main-two-planets">
+        <img src="../assets/custom-images/about-mid-right.png" alt="right wavy planet" id="about-right-wavy-planet">
     </div>
 </template>
 
@@ -9,18 +9,18 @@
 
 #about-main-two-planets {
     position: absolute;
-    right: 48vw;
-    top: 3vw;
-    width: 25vw;
-    height: 25vw;
+    right: 6vw;
+    top: -8vw;
+    width: 70vw;
+    height: 70vw;
 }
 
 #about-right-wavy-planet {
     position: absolute;
     right: -16vw;
-    top: 25vw;
-    width: 14vw;
-    height: 12vw;
+    top: 26vw;
+    width: 17.3vw;
+    height: 16vw;
 }
 
 #about-parent {
