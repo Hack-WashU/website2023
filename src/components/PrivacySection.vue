@@ -1,8 +1,8 @@
 <template>
     <div id="privacy-parent">
-        <img src="../assets/custom-images/privacy-bottom-right.png" alt="bottom right purple planet" id="privacy-bottom-right-purple-planet">
-        <img src="../assets/custom-images/privacy-mid-left.png" alt="large green planet" id="privacy-large-green-planet">
-        <img src="../assets/custom-images/privacy-astronaut.png" alt="astronaut" id="privacy-astronaut">
+        <!-- <img src="../assets/custom-images/privacy/bottom-right.png" alt="bottom right purple planet" id="privacy-bottom-right-purple-planet"> -->
+        <img src="../assets/custom-images/privacy/mid-left.png" alt="large green planet" id="privacy-large-green-planet">
+        <img src="../assets/custom-images/privacy/astronaut.png" alt="astronaut" id="privacy-astronaut">
     </div>
 </template>
 

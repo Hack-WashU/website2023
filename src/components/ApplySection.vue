@@ -3,9 +3,9 @@
 
 <template>
     <div id="apply-parent">
-        <img src="../assets/custom-images/apply-astronaut.png" alt="Bear Astronaut" id="apply-astronaut"/>
+        <img src="../assets/custom-images/apply/astronaut.png" alt="Bear Astronaut" id="apply-astronaut"/>
         <a href="https://wustl.az1.qualtrics.com/jfe/form/SV_9LAuwqqyOyFqwEm">
-            <img src="../assets/custom-images/apply-main.png" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
+            <img src="../assets/custom-images/apply/main.png" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
         </a>
     </div>
 </template>

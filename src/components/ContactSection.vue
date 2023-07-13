@@ -1,7 +1,7 @@
 <template>
     <div id="contact-parent">
-        <img src="../assets/custom-images/contact-mid-left.png" alt="left big pink planet" id="contact-left-big-pink-planet"/>
-        <img src="../assets/custom-images/contact-main.png" alt="main orange bear planet" id="contact-main-orange-bear-planet"/>
+        <img src="../assets/custom-images/contact/mid-left.png" alt="left big pink planet" id="contact-left-big-pink-planet"/>
+        <img src="../assets/custom-images/contact/main.png" alt="main orange bear planet" id="contact-main-orange-bear-planet"/>
     </div>
 </template>
 

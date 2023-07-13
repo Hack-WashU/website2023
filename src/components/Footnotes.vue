@@ -30,6 +30,7 @@
     display: flex;
     justify-content: space-evenly;
     font-family: Arial;
+    margin-top: auto;
   }
   
   .footnote-link {
@@ -43,6 +44,13 @@
   
   .footnote-link a:hover {
     text-decoration: underline;
+  }
+
+  #footnotes-parent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
   </style>
   
