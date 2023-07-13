@@ -1,7 +1,7 @@
 <template>
     <div id="about-parent">
-        <img src="../assets/custom-images/about-main.png" alt="main two planets" id="about-main-two-planets">
-        <img src="../assets/custom-images/about-mid-right.png" alt="right wavy planet" id="about-right-wavy-planet">
+        <img src="../assets/custom-images/about/main.png" alt="main two planets" id="about-main-two-planets">
+        <img src="../assets/custom-images/about/mid-right.png" alt="right wavy planet" id="about-right-wavy-planet">
     </div>
 </template>
 
