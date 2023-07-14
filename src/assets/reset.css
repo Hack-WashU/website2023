@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background: linear-gradient(to bottom, #4E4376, #2B5876);
-    /* background-attachment: fixed; Fixed background while scrolling */
+    background-attachment: fixed; /*Fixed background while scrolling */
 }
 
 body::before {

@@ -22,7 +22,7 @@
     width: 14vw; /*TODO: determine viewport width */
     height: 14vw; /*TODO: determine viewport height */
     right: 10vw;
-    top: 42vw;
+    top: 32vw;
 }
 
 
@@ -31,21 +31,21 @@
     width: 17vw; /*TODO: determine viewport width */
     height: 17vw; /*TODO: determine viewport height */
     left: 3vw;
-    top: 28vw;
+    top: 24vw;
 }
 
 #header-main-planet {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
-    left: 22vw;
-    top: 12vw;
+    width: 48vw;
+    height: 48vw;
+    left: 25vw;
+    top: 4vw;
 }
 
 #header-small-left-purple-planet {
     position: absolute;
     left: 20vw;
-    top: 3vw;
+    top: 1vw;
     width: 10vw;
     height: 10vw;
 }
@@ -53,7 +53,7 @@
 #header-top-right-small-orange-planet {
     position: absolute;
     right: 13vw;
-    top: 10vw;
+    top: 6vw;
     width: 12vw;
     height: 12vw;
 }
@@ -61,6 +61,6 @@
 #header-parent {
     display: flex;
     position: relative;
-    height: 55vw;
+    height: 46vw;
     
 }</style>
