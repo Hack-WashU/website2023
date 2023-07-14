@@ -2,12 +2,12 @@
 </script>
 
 <template>
-    <a id="mlh-trust-badge"
-        style="display:block;max-width:100px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000"
+    <div id="header-parent">
+        <a id="mlh-trust-badge"
+        style="display:block;position:absolute;right:5vw;top:0;width:7%;z-index:10000"
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
         target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
             alt="Major League Hacking 2024 Hackathon Season" style="width:100%"></a>
-    <div id="header-parent">
         <img src="../assets/custom-images/header/mid-right.png" alt="bottom right planet" id="header-bottom-right-planet">
         <img src="../assets/custom-images/header/mid-left.png" alt="left orange medium planet" id="header-left-orange-medium-planet">
         <img src="../assets/custom-images/header/main.png" alt="main planet" id="header-main-planet">
@@ -59,8 +59,8 @@
 }
 
 #header-parent {
-    flex: auto;
+    display: flex;
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 55vw;
+    
 }</style>

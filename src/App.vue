@@ -16,12 +16,3 @@ import Footnotes from './components/Footnotes.vue'
   <Privacy />
   <Footnotes />
 </template>
-
-<style scoped>
-
-#App {
-  display: flex;
-  flex-direction: column;
-}
-
-</style>
