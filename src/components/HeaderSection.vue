@@ -39,7 +39,7 @@
     width: 50vw;
     height: 50vw;
     left: 22vw;
-    top: 12vh;
+    top: 12vw;
 }
 
 #header-small-left-purple-planet {
