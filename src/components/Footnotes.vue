@@ -3,7 +3,7 @@
 <template>
     <div class="footnotes">
       <div class="footnote-link" v-for="(link, index) in links" :key="index">
-        <a :href="link.url" class="link" target="_blank">{{ link.text }}</a>
+        <a :href="link.url" style="font-size: 3vw;" target="_blank">{{ link.text }}</a>
       </div>
     </div>
   </template>
@@ -23,6 +23,7 @@
   </script>
   
   <style>
+
   .footnotes {
     background-color: #18163D;
     padding: 10px;
