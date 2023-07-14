@@ -28,10 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
     background: linear-gradient(to bottom, #4E4376, #2B5876);
-    background-attachment: fixed; /* Fixed background while scrolling */
+    /* background-attachment: fixed; Fixed background while scrolling */
 }
 
 body::before {
@@ -42,8 +43,8 @@ body::before {
 	width: 100%;
 	height: 100%;
 	background-image: url('../assets/custom-images/Rectangle.jpg');
-	pointer-events: none; /* Allow clicking through the pseudo-element */
-	opacity: 0.5; /* Adjust the opacity as desired */
+	pointer-events: none;
+	opacity: 0.5; 
   }
 
 
@@ -61,4 +62,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#app{
+	display: flex;
+	flex-direction: column;
 }

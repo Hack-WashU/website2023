@@ -14,7 +14,7 @@
 
 #apply-astronaut {
     position: absolute;
-    right: 42vw;
+    right: 62vw;
     top: 0vw;
     width: 47vw;
     height: 40vw;
@@ -22,17 +22,17 @@
 
 #apply-main-red-ring-planet {
     position: absolute;
-    right: -20vw;
-    top:0vw;
+    right: 0vw;
+    top: 0vw;
     width: 67vw;
     height: 62vw;
 }
 
 #apply-parent {
-    flex: auto;
+    display: flex;
     position: relative;
-    height: 100vh; /* take full viewport height */
-    width: 80vw;
+    height: 55vw; /* take full viewport height */ 
+    
 }
 
 </style>

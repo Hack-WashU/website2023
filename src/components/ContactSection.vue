@@ -9,7 +9,7 @@
 
 #contact-left-big-pink-planet {
     position: absolute;
-    right: 40vw;
+    right: 60vw;
     top: 30vw;
     width: 40vw;
     height: 33vw;
@@ -17,17 +17,16 @@
 
 #contact-main-orange-bear-planet {
     position: absolute;
-    right: -15vw;
+    right: 5vw;
     top: 4vw;
     width: 45vw;
     height: 62vw;
 }
 
 #contact-parent {
-    flex: auto;
+    display: flex;
     position: relative;
-    height: 100vh; 
-    width: 80vw;
+    height: 55vw; 
 }
 
 </style>

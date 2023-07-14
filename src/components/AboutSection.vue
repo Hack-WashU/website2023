@@ -9,25 +9,25 @@
 
 #about-main-two-planets {
     position: absolute;
-    right: 6vw;
+    right: 40vw;
     top: -8vw;
-    width: 70vw;
-    height: 70vw;
+    width: 58vw;
+    height: 58vw;
 }
 
 #about-right-wavy-planet {
     position: absolute;
-    right: -16vw;
-    top: 26vw;
+    right: 10vw;
+    top: 20vw;
     width: 17.3vw;
     height: 16vw;
 }
 
 #about-parent {
-    flex: auto;
     position: relative;
-    height: 100vh; /* take full viewport height */
-    width: 80vw;
+    height: 40vw; /* take full viewport height */
+    display: flex;
 }
+
 
 </style>

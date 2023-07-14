@@ -18,15 +18,15 @@
 
 #privacy-large-green-planet {
     position: absolute;
-    right: 37vw;
-    top: 12vw;
+    right: 57vw;
+    top: 17vw;
     width: 40vw;
     height: 32vw;
 }
 
 #privacy-astronaut {
     position: absolute;
-    right: -20vw;
+    right: 0vw;
     top: 10vw;
     width: 40vw;
     height: 33vw;
@@ -34,10 +34,9 @@
 
 
 #privacy-parent {
-    flex: auto;
+    display: flex;
     position: relative;
-    height: 100vh; /* take full viewport height */
-    width: 80vw;
+    height: 55vw; /* take full viewport height */
 }
 
 </style>
