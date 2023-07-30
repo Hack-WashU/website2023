@@ -3,10 +3,10 @@
 <template>
     <div class="footnotes">
       <div class="footnote-link" v-for="(link, index) in links" :key="index">
-        <a :href="link.url" style="font-size: 3vw;" target="_blank">{{ link.text }}</a>
+        <a :href="link.url" style="font-size: 2vw;" target="_blank">{{ link.text }}</a>
       </div>
     </div>
-  </template>
+</template>
   
   <script>
   export default {
