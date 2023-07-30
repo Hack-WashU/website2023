@@ -7,32 +7,58 @@
         <a href="https://wustl.az1.qualtrics.com/jfe/form/SV_9LAuwqqyOyFqwEm">
             <img src="../assets/custom-images/apply/main.png" alt="Apply to HackWashU planet" id="apply-main-red-ring-planet"/>
         </a>
+        <img src="../assets/custom-images/apply/stars-1.png" alt="stars" id="stars-1">
+        <img src="../assets/custom-images/apply/stars-2.png" alt="stars" id="stars-2">
+        <img src="../assets/custom-images/apply/stars-3.png" alt="stars" id="stars-3">
     </div>
 </template>
 
 <style scoped>
 
+#stars-3{
+    position: absolute;
+    left: 1.5vw;
+    top: 9vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+#stars-2{
+    position: absolute;
+    left: 12vw;
+    top: -2vw;
+    width: 6vw;
+    height: 9vw;
+}
+
+#stars-1{
+    position: absolute;
+    right: 12vw;
+    top: -3vw;
+    width: 10vw;
+    height: 12vw;
+}
+
 #apply-astronaut {
     position: absolute;
-    right: 62vw;
-    top: 0vw;
-    width: 47vw;
-    height: 40vw;
+    right: 65vw;
+    top: -3vw;
+    width: 38vw;
+    height: 32vw;
 }
 
 #apply-main-red-ring-planet {
     position: absolute;
-    right: 0vw;
-    top: 0vw;
-    width: 67vw;
-    height: 62vw;
+    right: 5vw;
+    top: -8vw;
+    width: 50vw;
+    height: 50vw;
 }
 
 #apply-parent {
     display: flex;
     position: relative;
-    height: 55vw; /* take full viewport height */ 
-    
+    height: 37vw; 
 }
 
 </style>
