@@ -20,6 +20,26 @@
 
 <style scoped>
 
+#stars-2,
+#stars-1,
+#header-bottom-right-planet,
+#header-left-orange-medium-planet,
+#header-main-planet,
+#header-small-left-purple-planet,
+#header-top-right-small-orange-planet {
+    transition: all 0.5s ease; /* Apply transition to all properties for smooth animation */
+}
+
+#stars-2:hover,
+#stars-1:hover,
+#header-bottom-right-planet:hover,
+#header-left-orange-medium-planet:hover,
+#header-main-planet:hover,
+#header-small-left-purple-planet:hover,
+#header-top-right-small-orange-planet:hover {
+    transform: rotate(20deg); /* Rotate element 10 degrees on hover */
+}
+
 #stars-2{
     position: absolute;
     left: 3vw;
@@ -83,3 +103,4 @@
     height: 43vw;
 }
 </style>
+
