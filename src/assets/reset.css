@@ -68,5 +68,6 @@ table {
 
 
 @font-face {
-	font-family: 'Montserrat Alternates', sans-serif;
-  }
+	font-family: 'barcade';
+	src: url('./Barcade/barcadenobar.ttf') format('truetype');
+	}
