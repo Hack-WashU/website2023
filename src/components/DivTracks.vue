@@ -1,6 +1,10 @@
 <template>
     <div id="divTracks-parent">
+        <div id="divisionsBoard"></div>
         <img src="../assets/custom-images/divTracks/divisions.png" alt="divisions" id="divisions">
+        <p id="emerging"></p>
+        <p id="masters"></p>
+        </div>
         <img src="../assets/custom-images/divTracks/purple-planet.png" alt="purple planet" id="purple-planet">
         <img src="../assets/custom-images/divTracks/mid-right.png" alt="orange planet" id="orange-planet">
         <img src="../assets/custom-images/divTracks/tracks.png" alt="tracks" id="tracks">
