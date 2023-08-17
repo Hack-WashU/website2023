@@ -1,20 +1,77 @@
 
 <template>
     <div id="faqSponsor-parent">
-        <img src="../assets/custom-images/faq/faq.png" alt="faq" id="faq">
-        <img src="../assets/custom-images/faq/mid-left.png" alt="orange planet" id="orange">
+        <img src="../assets/custom-images/faq/faqLogo.png" alt="faq" id="faq">
         <img src="../assets/custom-images/faq/green-planet.png" alt="pink planet" id="pink">
         <img src="../assets/custom-images/faq/stars-1.png" alt="stars" id="stars-1">
         <img src="../assets/custom-images/faq/stars-2.png" alt="stars" id="stars-2">
-        <img src="../assets/custom-images/faq/stars-3.png" alt="stars" id="stars-3">
-    </div>
+        <!-- <img src="../assets/custom-images/faq/stars-3.png" alt="stars" id="stars-3"> -->
 
+        <div id="questions">
+            <Question
+                question = "What is a hackathon?"
+                answer = "A hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+            />
+            <Question
+                question = "When is Hack WashU?"
+                answer = "Hack WashU will start on the evening of October 15, 2022 and end on the morning of the 17th"
+            />
+            <Question
+                question = "Who can attend Hack WashU?"
+                answer = "Any college student in the continental United States can attend Hack WashU!"
+            />
+            <Question
+                question = "Is Hack WashU in-person?"
+                answer = "Hack WashU will primarily be virtual, but there will be an in-person component for WashU students"
+            />
+            <Question
+                question = "Is Hack WashU free?"
+                answer = "YES!!!"
+            />
+            <Question
+                question = "If I can't code, should I still come?"
+                answer = "YES!!! Hack WashU will be an inclusive event for all"
+            />
+            <Question
+                question = "Will there be swag?"
+                answer = "YES!!!"
+            />
+            <Question
+                question = "I have more questions!!"
+                answer = "Feel free to reach out to us at organizer@hackwashu.io!"
+            />
+        </div>
+    </div>
 </template>
+
+<script>
+import Question from './Questions.vue'
+
+export default {
+  name: 'FAQ',
+  components: {
+      Question,
+  }
+}
+</script>
 
 
 
 <style scoped>
 
+#questions{
+    position: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0vw;
+    margin-top: 12vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 100%;
+    z-index: 9999;
+}
 
 #stars-3{
     position: absolute;
@@ -40,18 +97,12 @@
     height: 8vw;
 }
 
-#orange{
-    position: absolute;
-    right: 7vw;
-    top: -6vw;
-    width: 32vw;
-    height: 32vw;
-}
+
 
 #pink{
     position: absolute;
-    right: 4vw;
-    top: 38vw;
+    left: 4vw;
+    bottom: -2vw;
     width: 16vw;
     height: 16vw;
 }
@@ -59,16 +110,16 @@
 
 #faq{
     position: absolute;
-    right: 25vw;
-    top: 3vw;
-    width: 75vw;
-    height: 60vw;
+    right: 32vw;
+    top: -9vw;
+    width: 36vw;
+    height: 26vw;
 }
 
 #faqSponsor-parent {
     display: flex;
     position: relative;
-    height: 65vw; 
+    height: 75vw; 
 }
 
 </style>
