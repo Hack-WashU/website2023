@@ -1,6 +1,6 @@
 <template>
     <div id="divTracks-parent">
-        <div id="divisionsBoard"></div>
+        <div id="divisionsBoard">
         <img src="../assets/custom-images/divTracks/divisions.png" alt="divisions" id="divisions">
         <p id="emerging"></p>
         <p id="masters"></p>
