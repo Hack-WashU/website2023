@@ -52,7 +52,7 @@
   #stars-2,
   #stars-1,
   #stars-3 {
-    display: none;
+    z-index: -2;
   }
 }
 

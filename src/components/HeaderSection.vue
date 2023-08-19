@@ -29,11 +29,17 @@
       alt="left orange medium planet"
       id="header-left-orange-medium-planet"
     />
-    <img
-      src="../assets/custom-images/header/main.png"
-      alt="main planet"
-      id="header-main-planet"
-    />
+    <div id="header-main-planet-mobile">
+      <img
+        src="../assets/custom-images/header/main.png"
+        alt="main planet"
+        id="header-main-planet"
+      />
+    </div>
+
+    <div id="header-main-div">
+      <h1 id="header-main-date">October 14-15, 2023</h1>
+    </div>
     <img
       src="../assets/custom-images/header/top-left.png"
       alt="small left purple planet"
@@ -84,10 +90,29 @@
 /* Screen size for mobile optimization */
 @media (max-width: 700px) {
   #header-parent {
-    display: flex;
     position: static;
+    margin-bottom: 30vw !important;
+  }
+
+  #header-main-planet-mobile {
+    width: 100%;
+    display: flex;
     justify-content: center;
-    margin-bottom: 20vw;
+  }
+
+  #header-main-div-mobile {
+    position: relative;
+    display: block;
+  }
+
+  #header-main-date-mobile {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+  }
+
+  #header-main-div {
+    display: none !important;
   }
 
   #header-main-planet {
@@ -152,6 +177,24 @@
   top: 3vw;
 }
 
+#header-main-div {
+  margin-top: 6vw;
+  position: static !important;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: #faef9a;
+}
+
+#header-main-date {
+  z-index: 2;
+  font-size: 5vw;
+}
+
 #header-small-left-purple-planet {
   position: absolute;
   left: 26vw;
@@ -172,5 +215,10 @@
   display: flex;
   position: relative;
   height: 43vw;
+  margin-bottom: 10vw;
+}
+
+#header-main-div-mobile {
+  display: none;
 }
 </style>

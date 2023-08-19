@@ -69,7 +69,12 @@
   #stars-1,
   #stars-2,
   #contact-left-big-pink-planet {
-    display: none;
+    z-index: -2;
+  }
+
+  #contact-left-big-pink-planet {
+    top: 35vw !important;
+    right: 30vw !important;
   }
 }
 

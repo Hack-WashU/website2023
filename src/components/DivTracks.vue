@@ -44,17 +44,17 @@
       alt="stars"
       id="stars-3"
     />
-    <p 
-    id="text-1">
-    the master division is for more experienced hackers who are comfortable with having full creative control of their projects. 
-    we will have exciting speakers and experienced mentors to help take your project to the next level.
+    <p id="text-1">
+      The master division is for more experienced hackers who are comfortable
+      with having full creative control of their projects. we will have exciting
+      speakers and experienced mentors to help take your project to the next
+      level.
     </p>
-    <p 
-    id="text-2">
-    the emerging division is for underclassmen who may not be as experienced in building their own projects. 
-    we will have mentors and volunteers to help guide you through building your projects.
+    <p id="text-2">
+      The emerging division is for underclassmen who may not be as experienced
+      in building their own projects. we will have mentors and volunteers to
+      help guide you through building your projects.
     </p>
-
   </div>
 </template>
 
@@ -99,7 +99,27 @@
   #purple-planet,
   #orange-planet,
   #shiny-orange-planet {
-    display: none;
+    z-index: -2;
+  }
+
+  #text-2 {
+    position: absolute;
+    left: 22vw !important;
+    top: 36vw !important;
+    width: 28vw !important;
+    font-size: 2vw !important;
+    color: #b4d4d4;
+    text-align: center;
+  }
+
+  #text-1 {
+    position: absolute;
+    left: 53vw !important;
+    top: 36vw !important;
+    width: 28vw !important;
+    font-size: 2vw !important;
+    color: #b4d4d4;
+    text-align: center;
   }
 }
 
@@ -109,7 +129,7 @@
   top: 25.5vw;
   width: 23vw;
   font-size: 1.2vw;
-  color: #B4D4D4;
+  color: #b4d4d4;
   text-align: center;
 }
 
@@ -119,7 +139,7 @@
   top: 25.5vw;
   width: 20vw;
   font-size: 1.2vw;
-  color: #B4D4D4;
+  color: #b4d4d4;
   text-align: center;
 }
 

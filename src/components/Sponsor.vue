@@ -51,9 +51,10 @@
   }
 
   #sponsors {
-    position: static !important;
+    /* position: static !important;
     width: 90vw !important;
-    height: 70vw !important;
+    height: 70vw !important; */
+    display: none;
   }
 
   #stars-4,
@@ -62,7 +63,7 @@
   #stars-7,
   #purple,
   #stripes {
-    display: none;
+    z-index: -2;
   }
 }
 

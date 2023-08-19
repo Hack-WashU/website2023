@@ -70,7 +70,7 @@ export default {
   #stars-1,
   #stars-2,
   #pink {
-    display: none;
+    z-index: -2;
   }
 }
 

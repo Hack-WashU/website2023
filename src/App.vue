@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Header from "./components/HeaderSection.vue";
+import Date from "./components/DateSection.vue";
 import About from "./components/AboutSection.vue";
 import Apply from "./components/ApplySection.vue";
 import Contact from "./components/ContactSection.vue";
@@ -12,6 +13,7 @@ import Footnotes from "./components/Footnotes.vue";
 
 <template>
   <Header />
+  <Date />
   <Apply />
   <About />
   <Contact />
