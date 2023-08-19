@@ -44,6 +44,17 @@
       alt="stars"
       id="stars-3"
     />
+    <p 
+    id="text-1">
+    the master division is for more experienced hackers who are comfortable with having full creative control of their projects. 
+    we will have exciting speakers and experienced mentors to help take your project to the next level.
+    </p>
+    <p 
+    id="text-2">
+    the emerging division is for underclassmen who may not be as experienced in building their own projects. 
+    we will have mentors and volunteers to help guide you through building your projects.
+    </p>
+
   </div>
 </template>
 
@@ -90,6 +101,26 @@
   #shiny-orange-planet {
     display: none;
   }
+}
+
+#text-2 {
+  position: absolute;
+  left: 11.7vw;
+  top: 25.5vw;
+  width: 23vw;
+  font-size: 1.2vw;
+  color: #B4D4D4;
+  text-align: center;
+}
+
+#text-1 {
+  position: absolute;
+  left: 39vw;
+  top: 25.5vw;
+  width: 20vw;
+  font-size: 1.2vw;
+  color: #B4D4D4;
+  text-align: center;
 }
 
 #stars-3 {

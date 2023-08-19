@@ -20,6 +20,15 @@
       alt="stars"
       id="stars-2"
     />
+    <p 
+    id="text">
+    at HackWashU, you'll meet fellow hackers from around the country, learn new skills, and work alongside seasoned mentors.<br>
+    <br>
+    we'll have free workshops, lecture series, mentorship, prizes, games, and more.<br>
+    <br>
+    don't have a team, or even an idea? don't worry! we'll give you the tools to build something incredible.
+    </p>
+
   </div>
 </template>
 
@@ -45,6 +54,16 @@
   #about-right-wavy-planet {
     display: none;
   }
+}
+
+#text{
+  position: absolute;
+  right: 47vw;
+  top: 17vw;
+  width: 34vw;
+  font-size: 2vw;
+	font-family: 'Montserrat Alternates', sans-serif;
+  color: #547AA5;
 }
 
 #stars-2 {

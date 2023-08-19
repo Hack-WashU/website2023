@@ -25,15 +25,15 @@
       />
       <Question
         question="When is Hack WashU?"
-        answer="Hack WashU will start on the evening of October 15, 2022 and end on the morning of the 17th"
+        answer="Hack WashU will start on the evening of October 13, 2022 and end on the morning of the 15th"
       />
-      <Question
+      <!-- <Question
         question="Who can attend Hack WashU?"
-        answer="Any college student in the continental United States can attend Hack WashU!"
-      />
+        answer=
+      /> -->
       <Question
         question="Is Hack WashU in-person?"
-        answer="Hack WashU will primarily be virtual, but there will be an in-person component for WashU students"
+        answer="Hack WashU will be in person."
       />
       <Question question="Is Hack WashU free?" answer="YES!!!" />
       <Question
@@ -131,6 +131,6 @@ export default {
 #faqSponsor-parent {
   display: flex;
   position: relative;
-  height: 75vw;
+  height: 60vw;
 }
 </style>
