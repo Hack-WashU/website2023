@@ -1,10 +1,10 @@
 <template>
   <div id="faqSponsor-parent">
-    <img
+    <!-- <img
       src="../assets/custom-images/sponsor/sponsors.png"
       alt="sponsors"
       id="sponsors"
-    />
+    /> -->
     <img
       src="../assets/custom-images/sponsor/green-stripes.png"
       alt="striped planet"
@@ -51,10 +51,9 @@
   }
 
   #sponsors {
-    /* position: static !important;
+    position: static !important;
     width: 90vw !important;
-    height: 70vw !important; */
-    display: none;
+    height: 70vw !important;
   }
 
   #stars-4,
