@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
