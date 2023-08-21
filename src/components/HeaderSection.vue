@@ -74,18 +74,21 @@
   transition: all 0.3s ease; /* Apply transition to all properties for smooth animation */
 }
 
-#stars-2:hover,
+/* #stars-2:hover,
 #stars-1:hover,
 #header-bottom-right-planet:hover,
 #header-left-orange-medium-planet:hover,
 #header-main-planet:hover {
-  transform: rotate(20deg); /* Rotate element 20 degrees on hover */
-}
+  transform: rotate(20deg); 
+} 
+*/
 
+/*
 #header-top-right-small-orange-planet:hover,
 #header-small-left-purple-planet:hover {
-  transform: rotate(-20deg); /* Rotate element 20 degrees other wayon hover */
+  transform: rotate(-20deg); 
 }
+*/
 
 /* Screen size for mobile optimization */
 @media (max-width: 700px) {
