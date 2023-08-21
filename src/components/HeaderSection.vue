@@ -79,12 +79,12 @@
 #header-bottom-right-planet:hover,
 #header-left-orange-medium-planet:hover,
 #header-main-planet:hover {
-  transform: rotate(20deg); /* Rotate element 20 degrees on hover */
+  /* transform: rotate(20deg); Rotate element 20 degrees on hover */
 }
 
 #header-top-right-small-orange-planet:hover,
 #header-small-left-purple-planet:hover {
-  transform: rotate(-20deg); /* Rotate element 20 degrees other wayon hover */
+  /* transform: rotate(-20deg); Rotate element 20 degrees other wayon hover */
 }
 
 /* Screen size for mobile optimization */
