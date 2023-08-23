@@ -94,6 +94,11 @@
   top: -8vw;
   width: 50vw;
   height: 50vw;
+  transition: all 0.5s ease;
+}
+
+#apply-main-red-ring-planet:hover {
+  transform: rotate(20deg) !important;
 }
 
 #apply-parent {
