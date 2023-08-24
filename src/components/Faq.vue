@@ -147,5 +147,6 @@ export default {
   display: flex;
   position: relative;
   height: 60vw;
+  margin-bottom: 8vw;
 }
 </style>
