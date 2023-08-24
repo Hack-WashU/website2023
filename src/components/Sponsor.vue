@@ -1,10 +1,10 @@
 <template>
   <div id="faqSponsor-parent">
-    <!-- <img
+    <img
       src="../assets/custom-images/sponsor/sponsors.png"
       alt="sponsors"
       id="sponsors"
-    /> -->
+    />
     <img
       src="../assets/custom-images/sponsor/green-stripes.png"
       alt="striped planet"
@@ -42,11 +42,11 @@
 /* Screen size for mobile optimization */
 @media (max-width: 700px) {
   #faqSponsor-parent {
-    margin-top: -5vw;
+    margin-top: 10vw;
     display: flex;
     position: static;
     justify-content: center;
-    margin-bottom: -10vw;
+    margin-bottom: 7vw;
     margin-left: 15px;
   }
 
@@ -60,9 +60,12 @@
   #stars-5,
   #stars-6,
   #stars-7,
-  #purple,
-  #stripes {
+  #purple {
     z-index: -2;
+  }
+
+  #stripes {
+    top: 50vw !important;
   }
 }
 

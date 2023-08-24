@@ -21,11 +21,11 @@
     <div id="questions">
       <Question
         question="What is a hackathon?"
-        answer="A hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+        answer="A hackathon is an invention marathon where students build software around a central theme (this year's theme is space). At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
       />
       <Question
         question="When is Hack WashU?"
-        answer="Hack WashU will start on the evening of October 13, 2022 and end on the morning of the 15th"
+        answer="Hack WashU will start on the morning of October 14, 2022 and end on the evening of the 15th. Please plan on attending for the whole weekend"
       />
       <!-- <Question
         question="Who can attend Hack WashU?"
@@ -33,14 +33,29 @@
       /> -->
       <Question
         question="Is Hack WashU in-person?"
-        answer="Hack WashU will be in person."
+        answer="Hack WashU will be in person. Please plan to be in St. Louis, MO for the whole weekend"
       />
-      <Question question="Is Hack WashU free?" answer="YES!!!" />
+      <Question
+        question="Is Hack WashU free?"
+        answer="YES!!! It's not just free, it rewards you! You will be able to collect swag, partake in workshops and speaker sessions, work with mentors, network with our sponsors, and more!"
+      />
       <Question
         question="If I can't code, should I still come?"
-        answer="YES!!! Hack WashU will be an inclusive event for all"
+        answer="YES!!! Hack WashU will be an inclusive event for all. There will be plenty of other introductory hackers just like you and it's a great opportunity to learn"
       />
-      <Question question="Will there be swag?" answer="YES!!!" />
+      <Question question="Will there be swag?" answer="YES!!! (It's free)" />
+      <Question
+        question="How do teams work?"
+        answer="Each team consists of a maximum of four members. Teams will be determined at the start of the hackathon. If you do not have a team coming into the event, don't worry-we will be able to match you with a team"
+      />
+      <Question
+        question="What are tracks?"
+        answer="Tracks are areas of focus that you may choose to hack in. If you submit your project to a track, you are eligible to win the track-specific prize. The three tracks we currently have are A.I., Social Connections, and Interactive Media. More tracks may be announced soon"
+      />
+      <Question
+        question="Is there a code of conduct?"
+        answer="All participants in Hack WashU will have to abide by the MLH code of conduct (linked below)"
+      />
       <Question
         question="I have more questions!!"
         answer="Feel free to reach out to us at organizer@hackwashu.io!"
@@ -132,5 +147,6 @@ export default {
   display: flex;
   position: relative;
   height: 60vw;
+  margin-bottom: 8vw;
 }
 </style>
