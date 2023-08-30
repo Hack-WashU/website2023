@@ -17,15 +17,15 @@
       id="stars-2"
     />
     <!-- <img src="../assets/custom-images/faq/stars-3.png" alt="stars" id="stars-3"> -->
-
     <div id="questions">
       <Question
         question="What is a hackathon?"
         answer="A hackathon is an invention marathon where students build software around a central theme (this year's theme is space). At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+        clicked="false"
       />
       <Question
         question="When is Hack WashU?"
-        answer="Hack WashU will start on the morning of October 14, 2022 and end on the evening of the 15th. Please plan on attending for the whole weekend"
+        answer="Hack WashU will start on the morning of October 14, 2022 and end on the evening of the 15th. Early check in will be in the afternoon on Friday October 13th. Please plan on attending for the whole weekend"
       />
       <!-- <Question
         question="Who can attend Hack WashU?"
@@ -58,7 +58,7 @@
       />
       <Question
         question="I have more questions!!"
-        answer="Feel free to reach out to us at organizer@hackwashu.io!"
+        answer="Feel free to reach out to us at organizer@hackwashu.com!"
       />
     </div>
   </div>
@@ -72,6 +72,7 @@ export default {
   components: {
     Question,
   },
+  props: ["clicked"],
 };
 </script>
 
@@ -90,6 +91,7 @@ export default {
 }
 
 #questions {
+  height: fit-content !important;
   position: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,7 +148,7 @@ export default {
 #faqSponsor-parent {
   display: flex;
   position: relative;
-  height: 60vw;
+  height: fit-content !important;
   margin-bottom: 8vw;
 }
 </style>
