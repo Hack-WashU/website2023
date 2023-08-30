@@ -52,14 +52,17 @@
 
   #sponsors {
     position: static !important;
-    width: 90vw !important;
+    width: 95vw !important;
     height: 70vw !important;
   }
 
   #stars-4,
   #stars-5,
   #stars-6,
-  #stars-7,
+  #stars-7 {
+    z-index: 10;
+  }
+
   #purple {
     z-index: -2;
   }
