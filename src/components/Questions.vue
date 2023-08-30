@@ -31,6 +31,16 @@ export default {
 </script>
 
 <style scoped>
+/* Screen size for mobile optimization */
+@media (max-width: 700px) {
+  h2 {
+    font-size: 4vw !important;
+  }
+  p {
+    font-size: 3vw !important;
+    line-height: 10px;
+  }
+}
 .ans {
   width: 100%;
   text-align: center;
