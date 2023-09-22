@@ -31,7 +31,7 @@
     </a>
     <a href="mailto:organizers@hackwashu.com">
       <img
-        src="../assets/custom-images/contact/gmail.png"
+        src="../assets/custom-images/contact/gmail2.png"
         alt="gmail"
         id="contact-main-gmail"
       />
