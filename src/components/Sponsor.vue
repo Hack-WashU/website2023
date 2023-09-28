@@ -60,7 +60,7 @@
   #stars-5,
   #stars-6,
   #stars-7 {
-    z-index: 10;
+    z-index: -2;
   }
 
   #purple {
