@@ -29,7 +29,7 @@
         id="contact-main-linkedin"
       />
     </a>
-    <a href="mailto:organizers@hackwashu.com">
+    <a href="mailto:organizer@hackwashu.com">
       <img
         src="../assets/custom-images/contact/gmail2.png"
         alt="gmail"
