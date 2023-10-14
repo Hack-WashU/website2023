@@ -20,7 +20,7 @@
     <div id="questions">
       <Question
         question="What is a hackathon?"
-        answer="A hackathon is an invention marathon where students build software around a central theme (this year's theme is space). At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+        answer="A hackathon is an invention marathon where students build software that fits in to event chosen categories. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
         clicked="false"
       />
       <Question
